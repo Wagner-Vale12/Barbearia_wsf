@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 const Home = () => {
   return (
     <main className="min-h-screen bg-neutral-950 px-6 py-16 text-white">
@@ -22,6 +24,10 @@ const Home = () => {
           <div className="rounded-2xl border border-white/15 px-4 py-2 text-neutral-200">
             rounded-2xl
           </div>
+        </div>
+        <div className="flex flex-wrap gap-3">
+          <Button>Agendar agora</Button>
+          <Button variant="outline">Ver servicos</Button>
         </div>
       </section>
     </main>
